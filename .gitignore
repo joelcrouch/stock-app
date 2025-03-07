@@ -1,0 +1,41 @@
+# Virtual environment
+/stock-trading-env/
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Log files
+*.log
+logs/
+*.log
+*.csv  # If you store stock data, consider excluding CSVs
+
+
+# Coverage reports (if using a test coverage tool)
+.coverage
+
+# Local environment variables (if you use .env files for sensitive information)
+.env
+secrets.json
+config.ini
